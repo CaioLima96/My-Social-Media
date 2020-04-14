@@ -1,28 +1,20 @@
+* {
+    cursor: url('kunai1.png'), auto;	
+}
+
 body {
     background-color: lightblue !important;
+    background-image: url("toy2.jpg");
+    background-size:85%;
    
 }
 
-.main-card {
-    position: absolute;
-    background: #ffffff;
-    width: 50%;
-    max-width: 500px;
-    height: auto;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    border-radius: 10px;
-   
-}
+
 
 section > div {
     margin-bottom: 5%;
 }
 
-* {
-    cursor: url('kunai1.png'), auto;	
-}
 
 .btn-linkedin {
     background-color: #007BB6 !important;
@@ -52,6 +44,46 @@ section > div {
     transition: 1s all;
     transform: scale(1.2);
     box-shadow: 5px 6px 8px rgb(39, 36, 36);
-   
 }
 
+footer p, footer a {
+    
+    color: white;
+    text-shadow:
+       
+      -1px -1px 0 #000,  
+       1px -1px 0 #000,
+       -1px 1px 0 #000,
+        1px 1px 0 #000;
+}
+
+img {
+    width: 25px;
+    height: 25px;
+}
+
+
+footer a:hover, img:hover {
+    
+    font-weight: bold;
+    cursor: url('kunai2.png'), auto;
+}
+
+/*@media*/
+
+@media (max-width: 500px) {
+    p {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 1024px) and (min-width: 750px){
+    p {
+        font-size: 2rem;
+    }
+
+    img {
+        width: 30px;
+        height: 30px;
+    }
+}
