@@ -1,0 +1,57 @@
+body {
+    background-color: lightblue !important;
+   
+}
+
+.main-card {
+    position: absolute;
+    background: #ffffff;
+    width: 50%;
+    max-width: 500px;
+    height: auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+   
+}
+
+section > div {
+    margin-bottom: 5%;
+}
+
+* {
+    cursor: url('kunai1.png'), auto;	
+}
+
+.btn-linkedin {
+    background-color: #007BB6 !important;
+    margin-top: 5%;
+
+}
+
+
+.btn-github {
+    background-color: #444444 !important;
+}
+
+.btn-instagram {
+    background-color: #B13586 !important;
+}
+
+.btn-facebook {
+    background-color: #3B5998 !important;
+}
+
+.btn-amino {
+    background-color: #F77775 !important;
+}
+
+.btn:hover {
+    
+    transition: 1s all;
+    transform: scale(1.2);
+    box-shadow: 5px 6px 8px rgb(39, 36, 36);
+   
+}
+
