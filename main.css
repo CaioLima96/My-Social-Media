@@ -1,27 +1,26 @@
 * {
-    cursor: url('kunai1.png'), auto;	
+    cursor: url('img/kunai1.png'), auto;	
 }
 
 body {
     background-color: lightblue !important;
-    background-image: url("toy2.jpg");
+    background-image: url("img/toy2.jpg");
     background-size:85%;
-   
 }
 
-
+.container {
+    width: 40% !important;
+    max-width: 600px !important;
+}
 
 section > div {
     margin-bottom: 5%;
 }
 
-
 .btn-linkedin {
     background-color: #007BB6 !important;
     margin-top: 5%;
-
 }
-
 
 .btn-github {
     background-color: #444444 !important;
@@ -40,21 +39,14 @@ section > div {
 }
 
 .btn:hover {
-    
     transition: 1s all;
     transform: scale(1.2);
     box-shadow: 5px 6px 8px rgb(39, 36, 36);
 }
 
 footer p, footer a {
-    
     color: white;
-    text-shadow:
-       
-      -1px -1px 0 #000,  
-       1px -1px 0 #000,
-       -1px 1px 0 #000,
-        1px 1px 0 #000;
+    text-shadow:-1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 
 img {
@@ -64,20 +56,33 @@ img {
 
 
 footer a:hover, img:hover {
-    
     font-weight: bold;
-    cursor: url('kunai2.png'), auto;
+    cursor: url('img/kunai2.png'), auto;
 }
 
 /*@media*/
 
-@media (max-width: 500px) {
-    p {
-        font-size: 12px;
+@media (max-width: 800px) {
+    
+    .container {
+        width: 86% !important;
+    }
+
+    section .col-md-10 {
+        padding-left: 20px !important;
+        padding-right: 20px !important;
     }
 }
 
-@media (max-width: 1024px) and (min-width: 750px){
+@media (max-width: 500px) {
+
+    p {
+        font-size: 12px;
+    }
+
+}
+
+/*@media (max-width: 1024px) and (min-width: 750px){
     p {
         font-size: 2rem;
     }
@@ -86,4 +91,4 @@ footer a:hover, img:hover {
         width: 30px;
         height: 30px;
     }
-}
+}*/
