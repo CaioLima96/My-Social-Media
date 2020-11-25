@@ -13,6 +13,24 @@ body {
     max-width: 600px !important;
 }
 
+
+
+/***************************PROFILE PICTURE***************************/
+
+#profile-picture {
+    text-align: center;
+}
+
+#profile-picture img {
+    border-radius: 50%;
+    border: 3px solid white;
+    box-shadow: 5px 4px 7px 3px rgba(0,0,0,0.75);
+}
+
+
+
+/***************************BUTTONS***************************/
+
 section > div {
     margin-bottom: 5%;
 }
@@ -44,23 +62,23 @@ section > div {
     box-shadow: 5px 6px 8px rgb(39, 36, 36);
 }
 
+
+
+/***************************FOOTER***************************/
+
 footer p, footer a {
     color: white;
     text-shadow:-1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
-
-img {
-    width: 25px;
-    height: 25px;
-}
-
 
 footer a:hover, img:hover {
     font-weight: bold;
     cursor: url('img/kunai2.png'), auto;
 }
 
-/*@media*/
+
+
+/***************************@MEDIA***************************/
 
 @media (max-width: 800px) {
     
