@@ -53,6 +53,10 @@ section > div {
     background-color: #3B5998 !important;
 }
 
+.btn-deviantart {
+    background-color: #171A1E !important;
+}
+
 .btn-amino {
     background-color: #F77775 !important;
 }
@@ -61,8 +65,8 @@ section > div {
     transition: 1s all;
     transform: scale(1.2);
     box-shadow: 5px 6px 8px rgb(39, 36, 36);
+    cursor: url('img/kunai2.png'), auto;
 }
-
 
 
 /***************************FOOTER***************************/
