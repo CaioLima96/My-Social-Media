@@ -1,10 +1,10 @@
 * {
-    cursor: url('img/kunai1.png'), auto;	
+    cursor: url('../img/kunai1.png'), auto;	
 }
 
 body {
     background-color: lightblue !important;
-    background-image: url("img/toy2.jpg");
+    background-image: url("../img/toy2.jpg");
     background-size:85%;
 }
 
@@ -33,8 +33,16 @@ body {
 
 /***************************BUTTONS***************************/
 
-section > div {
-    margin-bottom: 5%;
+/*section > div {
+    margin-bottom: 6%;
+}*/
+
+#part-2 .col-md-10 {
+    margin: 1.25rem 0 0 0 !important;
+}
+
+#part-2 .col-md-10:nth-child(6) {
+    margin-bottom: 1.25rem !important;
 }
 
 .btn-linkedin {
@@ -57,15 +65,31 @@ section > div {
     background-color: #171A1E !important;
 }
 
-.btn-amino {
-    background-color: #F77775 !important;
+.amino-drop {
+    width: 100% !important;
 }
 
-.btn:hover {
-    transition: 1s all;
-    transform: scale(1.2);
-    box-shadow: 5px 6px 8px rgb(39, 36, 36);
-    cursor: url('img/kunai2.png'), auto;
+.dropdown button {
+    background-color: #0A256B !important;
+}
+
+.btn-secondary:hover {
+    border: none !important;
+}
+
+.btn.focus, .btn:focus {
+    box-shadow: none !important;
+}
+
+.dropdown .dropdown-menu {
+    width: 100% !important;
+    text-align: center !important;
+    padding: .5rem 5px !important;
+}
+
+.dropdown .dropdown-menu .dropdown-item {
+    padding: .25rem 0 !important;
+    white-space: normal !important; 
 }
 
 
@@ -78,12 +102,20 @@ footer p, footer a {
 
 footer a:hover, img:hover {
     font-weight: bold;
-    cursor: url('img/kunai2.png'), auto;
+    cursor: url('../img/kunai2.png'), auto;
 }
 
 
 
 /***************************@MEDIA***************************/
+
+/*@media (max-width: 500px) {
+
+    p {
+        font-size: 12px;
+    }
+
+}*/
 
 @media (max-width: 800px) {
     
@@ -97,21 +129,19 @@ footer a:hover, img:hover {
     }
 }
 
-@media (max-width: 500px) {
-
-    p {
-        font-size: 12px;
+@media (min-width: 1024px) {
+    .btn:hover:not(.amino-drop) {
+        transition: 1s all;
+        transform: scale(1.2);
+        box-shadow: 5px 6px 8px rgb(39, 36, 36);
+        cursor: url('../img/kunai2.png'), auto;
     }
-
+    
+    .dropdown .dropdown-menu .dropdown-item:hover {
+        transition: 1s all;
+        transform: scale(1.2);
+        cursor: url('../img/kunai2.png'), auto;
+        background-color: transparent !important;
+        color: #F77775 !important;
+    }
 }
-
-/*@media (max-width: 1024px) and (min-width: 750px){
-    p {
-        font-size: 2rem;
-    }
-
-    img {
-        width: 30px;
-        height: 30px;
-    }
-}*/

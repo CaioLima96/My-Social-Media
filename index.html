@@ -13,7 +13,7 @@
 
 
         <!-- MEU CSS -->
-        <link rel="stylesheet" type="text/css" href="main.css">
+        <link rel="stylesheet" type="text/css" href="css/main.css">
 
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -33,7 +33,7 @@
             
             <div class="container">
 
-                <section>
+                <section id="part-1">
 
                     <div id="profile-picture" class="mb-4">
 
@@ -43,9 +43,9 @@
 
                 </section>
                 
-                <section class=" my-auto mx-auto bg-white row rounded justify-content-center">
+                <section id="part-2" class="my-auto mx-auto bg-white row rounded justify-content-center">
 
-                    <div class="col-md-10 mt-4">
+                    <div class="col-md-10">
                         <a class="btn btn-block btn-social btn-linkedin text-white " href="https://www.linkedin.com/in/caiovieiralima" target="_blank">
                         <span class="fa fa-linkedin "></span>  LinkedIn</a>
                     </div>
@@ -59,27 +59,39 @@
                         <a class="btn btn-block btn-social btn-instagram text-white" href="https://www.instagram.com/caiolimaart/" target="_blank">
                         <span class="fa fa-instagram"></span>  Instagram</a>
                     </div>
-                    
-                    <div class="col-md-10">
-                        <a class="btn btn-block btn-social btn-facebook text-white" href="https://www.facebook.com/caiolimaart" target="_blank">
-                        <span class="fa fa-facebook"></span>  Facebook</a>
-                    </div>
 
                     <div class="col-md-10">
                         <a class="btn btn-block btn-social btn-deviantart text-white" href="https://www.deviantart.com/caiolimaart" target="_blank">
                         <span class="fa fa-deviantart"></span>  DeviantArt</a>
                     </div>
 
+                    <div class="col-md-10">
 
+                        <div class="dropdown">
 
-                    <div class="col-md-10 amino">
-                        <a class="btn btn-block btn-social btn-amino text-white" href=" http://aminoapps.com/p/7hvrdt" target="_blank">
-                        <span class=""></span> Desenhistas do Amino</a>
+                            <button class=" amino-drop btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                              Amino
+                            </button>
+    
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+
+                              <li><a class="dropdown-item" href="#">Desenhistas do Amino</a></li>
+                              <li><a class="dropdown-item" href="#">Pokémon Amino Em Português</a></li>
+                              <li><a class="dropdown-item" href="#">Ben 10 (inglês)</a></li>
+                              
+                            </ul>
+    
+                        </div>
+
+                    </div>
+                    
+                    <div class="col-md-10">
+                        <a class="btn btn-block btn-social btn-facebook text-white" href="https://www.facebook.com/caiolimaart" target="_blank">
+                        <span class="fa fa-facebook"></span>  Facebook</a>
                     </div>
                    
                 </section>
-                
-              
+
             </div>  
             
         </main>
@@ -102,9 +114,7 @@
 
         <!-- Optional JavaScript -->
         <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     
     </body>
     
