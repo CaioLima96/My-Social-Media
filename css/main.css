@@ -137,11 +137,15 @@ footer a:hover, img:hover {
         cursor: url('../img/kunai2.png'), auto;
     }
     
+    .dropdown button {
+        height: 38px !important;
+    }
+
     .dropdown .dropdown-menu .dropdown-item:hover {
         transition: 1s all;
         transform: scale(1.2);
         cursor: url('../img/kunai2.png'), auto;
         background-color: transparent !important;
-        color: #F77775 !important;
+        color: rgb(102, 102, 102) !important;
     }
 }
